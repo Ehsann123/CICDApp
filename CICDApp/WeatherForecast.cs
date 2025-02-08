@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Mvc;
+
 namespace CICDApp
 {
     public class WeatherForecast
@@ -16,6 +18,7 @@ namespace CICDApp
 
 public class SimpleMath
 {
+    [HttpGet]
     public int Add(int a, int b)
     {
          a = 1;
