@@ -11,3 +11,20 @@ namespace CICDApp
         public string? Summary { get; set; }
     }
 }
+
+// write a simple a+b function for an output of 3
+
+public class SimpleMath
+{
+    public int Add(int a, int b)
+    {
+         a = 1;
+         b = 2;
+        int result = a + b;
+        Console.WriteLine(result);
+        return result;
+
+    }
+
+
+}
